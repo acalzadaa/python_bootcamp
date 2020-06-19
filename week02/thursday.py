@@ -28,3 +28,4 @@ print(exercise01.upper())
 
 exercise02 = "$$John Smith"
 print(exercise02.strip("$"))
+
