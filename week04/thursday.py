@@ -41,7 +41,7 @@ print("\nExercise 6 ---------------------")
 sports = ["baseball", "soccer", "football", "hockey"]
 try:
     sports.remove("soccer")
-except:
+except ValueError:
     print("the item doesn't exists")
 print(sports)
 
