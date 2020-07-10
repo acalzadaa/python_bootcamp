@@ -34,3 +34,4 @@ def returnTheInput():
     return input("Write a word!: ")
 
 print(returnTheInput())
+
