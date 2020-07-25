@@ -24,6 +24,8 @@ def registerUser():
         else: 
             print("Something when wrong. Try again.")
         
+
+
 # logging a user in
 
 def loginUser():
@@ -39,6 +41,9 @@ def loginUser():
                 return True
     print("Something went wrong, try again!")
     return False
+
+
+
 
 def main():
     active = True
