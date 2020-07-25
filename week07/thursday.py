@@ -4,7 +4,7 @@ class Animal():
     def __init__(self, species):
         self.species = species
         
-    def makeSound(self):
+    def make_sound(self):
         print("Roar")
 
 class Dog(Animal):
@@ -12,16 +12,16 @@ class Dog(Animal):
         self.name = name
         super().__init__(species)
 
-    def makeSound(self):
+    def make_sound(self):
         print("Bark")
 
 sam = Dog("Canine", "Sammi")
 lion = Animal("Feline")
-sam.makeSound()
+sam.make_sound()
 print(sam.species)
 
-sam.makeSound()
-lion.makeSound()
+sam.make_sound()
+lion.make_sound()
 
 
 class Physics():
