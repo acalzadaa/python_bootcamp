@@ -2,3 +2,4 @@
 *.log
 *.txt
 *.csv
+*/__pycache__/*.cpython-38.pyc
