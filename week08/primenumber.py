@@ -1,17 +1,11 @@
 # Prime numbers are only divisible by one and itself and must be above the number 2
-class PrimeNumber():
+class PrimeNumber:
     def __init__(self, number):
         self.number = number
 
     def is_prime(self):
 
-        #is more than 2?
-        if self.number <= 2:
+        if (self.number > 2 and len([prime for prime in range(1, self.number + 1) if self.number % prime == 0]) == 2):
+            return True
+        else:
             return False
-
-        for num in range(2, self.number):
-            if self.number % num == 0:
-                print(f"found a divisor! {num}:{self.number}")
-                return False
-
-        return True
