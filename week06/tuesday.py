@@ -19,7 +19,7 @@ print(f'year {car["year"]} , color {car["color"]}')
 try:
     del car["year"]
     print(car)
-except:
+except KeyError:
     print("That key doesnt exist")
     
 #Looping a Dictionary
