@@ -4,7 +4,7 @@
 # Create a function called “isPrime” that you pass the input into, and return a True or False value. Be 
 # sure to keep efficiency in mind when programming the function
 
-from primenumber import PrimeNumber
+from week08.primenumber import PrimeNumber
 
 def main():
 
