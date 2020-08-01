@@ -9,7 +9,9 @@ nums = [random.randint(0,20) for i in range(10)]
 def binarySearch(aList, num):
     #step 1 - sort the list
     aList.sort()
-
+    
+    print(list(dict.fromkeys(aList)))
+    aList = list(dict.fromkeys(aList))
     if(not aList):
         return False
     elif aList[len(aList) // 2] == num:
